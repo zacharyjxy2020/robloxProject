@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch ./hackathon/src/index.js --output ./hackathon/static/main.js",
-    "build": "webpack --mode production ./hackathon/src/index.js --output ./hackathon/static/main.js"
+    "dev": "webpack --mode development --watch ./RobloxInputSite/src/index.js --output ./RobloxInputSite/static/main.js",
+    "build": "webpack --mode production ./RobloxInputSite/src/index.js --output ./RobloxInputSite/static/main.js"
   },
   "keywords": [],
   "author": "",
