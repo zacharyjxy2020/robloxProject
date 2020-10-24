@@ -15,8 +15,9 @@ def index(request):
 def htmlReq(request) :
     if request.method == "GET":
         x = collectData()
+        print(x.get('message'))
         return JsonResponse({
-            "success" : x
+            x.get('message') : x.get('message')
         }, safe= False)
     else:
         return JsonResponse({
