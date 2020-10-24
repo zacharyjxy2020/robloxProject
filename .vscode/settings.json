@@ -1,5 +1,6 @@
 {
     "python.pythonPath": "C:\\Users\\zacha\\anaconda3\\envs\\RobloxProject\\python.exe",
     "python.linting.pylintEnabled": true,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "git.ignoreLimitWarning": true
 }

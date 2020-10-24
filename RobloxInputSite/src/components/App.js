@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-import { Route } from 'react-router';
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import homepage from "./homepage";
 
 
 class App extends Component {
@@ -9,7 +10,7 @@ class App extends Component {
             <Router>
                     <div>
                         <Switch>
-                            <Route path="/homepage" exact component={homepage}/>
+                            <Route path="/" exact component={homepage}/>
                         </Switch>
                     </div>
                 </Router>            

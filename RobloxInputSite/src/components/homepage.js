@@ -5,8 +5,9 @@ class homepage extends Component {
     render(){
         return(
             <div>
-                Hello World
+                <p>Hello World</p>
             </div>
         );
     }
 }
+export default homepage
