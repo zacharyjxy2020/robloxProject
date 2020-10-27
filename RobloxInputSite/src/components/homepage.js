@@ -18,7 +18,7 @@ class homepage extends Component {
     }
 }
 const submitData = () => {
-    console.log('HELLLOOOOOOOOOOOO');
+    console.log('HELLLOOOOOOOOOOOO')
     const db = firebase.firestore()
     const db_ref = db.collection('Data').doc('messages')
     const message = document.getElementById('textInput').value

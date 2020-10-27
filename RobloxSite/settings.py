@@ -12,16 +12,16 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 import django_heroku
 import dj_database_url
-# import dotenv
+import dotenv
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-# dotenv_file = os.path.join(BASE_DIR, ".env")
-# if os.path.isfile(dotenv_file):
-#     dotenv.load_dotenv(dotenv_file)
+dotenv_file = os.path.join(BASE_DIR, ".env")
+if os.path.isfile(dotenv_file):
+    dotenv.load_dotenv(dotenv_file)
 
 DATABASES = {}
 DATABASES['default'] = dj_database_url.config(conn_max_age=600)  # use postgres on heroku or sqlite here
